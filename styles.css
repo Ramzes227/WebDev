@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Стили для кнопки в форме */
+form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* Стили для кнопки при наведении */
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
