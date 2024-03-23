@@ -15,7 +15,43 @@ const questions = [
     question: 'Что означает аббревиатура "CSS"?',
     options: ['Counter Strike: Source', 'Cascading Style Sheets', 'Crazy Style Syntax', 'Computer Style Sheets'],
     correctAnswer: 'Cascading Style Sheets'
+  },
+  {
+    question: 'Что такое CSS?',
+    options: ['Язык программирования', 'Гипертекстовый язык разметки', 'Каскадные таблицы стилей', 'Фреймворк для JavaScript'],
+    correctAnswer: 'Каскадные таблицы стилей'
+  },
+  {
+    question: 'Какое расширение у файлов JavaScript?',
+    options: ['.js', '.html', '.css', '.py'],
+    correctAnswer: '.js'
+  },
+  {
+    question: 'Что такое DOM?',
+    options: ['Document Object Model', 'Data Object Model', 'Design Object Model', 'Document Oriented Model'],
+    correctAnswer: 'Document Object Model'
+  },
+  {
+    question: 'Какие основные типы данных есть в JavaScript?',
+    options: ['Number, String, Boolean', 'Integer, Float, String', 'Integer, String, Array', 'Object, Array, Boolean'],
+    correctAnswer: 'Number, String, Boolean'
+  },
+  {
+    question: 'Что такое AJAX?',
+    options: ['Язык программирования', 'Методология веб-разработки', 'Технология асинхронного обмена данными с сервером', 'Фреймворк для создания пользовательских интерфейсов'],
+    correctAnswer: 'Технология асинхронного обмена данными с сервером'
+  },
+  {
+    question: 'Как создать переменную в JavaScript?',
+    options: ['let myVariable = 10;', 'variable myVariable = 10;', 'int myVariable = 10;', 'myVariable = 10;'],
+    correctAnswer: 'let myVariable = 10;'
+  },
+  {
+    question: 'Какой метод используется для добавления элемента в конец массива в JavaScript?',
+    options: ['push()', 'append()', 'add()', 'insert()'],
+    correctAnswer: 'push()'
   }
+  
 ];
 
 function Quiz() {
