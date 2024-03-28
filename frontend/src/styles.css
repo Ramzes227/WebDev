@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to right, rgb(32, 214, 193), rgb(73, 254, 142));
   }
   
   .app {
@@ -58,4 +58,5 @@ body {
     font-size: 24px;
     font-weight: bold;
   }
+
   

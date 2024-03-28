@@ -1,6 +1,6 @@
 import React from 'react';
 import Quiz from './components/Quiz';
-import './styles.css'; // Изменили импорт на styles.css
+import './styles.css';
 
 function App() {
   return (

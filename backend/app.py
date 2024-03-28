@@ -1,10 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask
+from frontend_blueprint import frontend_blueprint
 
-app = Flask(__name__, static_folder='frontend/build')  # Указываем папку build как папку со статическими файлами
+app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template('frontend/build/index.html')
+# Регистрация Blueprint в приложении Flask
+app.register_blueprint(frontend_blueprint)
 
 if __name__ == '__main__':
     app.run(debug=True)

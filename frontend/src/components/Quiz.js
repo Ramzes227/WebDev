@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './bootstrap.min.css'; 
+
 const questions = [
   {
     question: 'Что такое HTML?',
@@ -51,7 +53,6 @@ const questions = [
     options: ['push()', 'append()', 'add()', 'insert()'],
     correctAnswer: 'push()'
   }
-  
 ];
 
 function Quiz() {
@@ -88,7 +89,7 @@ function Quiz() {
           </div>
           <div className='answer-section'>
             {questions[currentQuestion].options.map((option, index) => (
-              <button key={index} onClick={() => handleAnswerOptionClick(option === questions[currentQuestion].correctAnswer)}>
+              <button key={index} className="btn btn-primary" onClick={() => handleAnswerOptionClick(option === questions[currentQuestion].correctAnswer)}>
                 {option}
               </button>
             ))}
